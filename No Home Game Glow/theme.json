@@ -1,0 +1,10 @@
+{
+    "name": "No Home Game Glow",
+    "author": "RasitAyaz",
+    "manifest_version": 3,
+    "target": "Home",
+    "description": "Hides the glow effect behind the capsule for the highlighted game at the home screen.",
+    "inject": {
+        "shared.css": ["Steam Big Picture Mode"]
+    }
+}
