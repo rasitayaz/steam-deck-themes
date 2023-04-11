@@ -1,2 +1,3 @@
-# Steam-Deck-Theme-Template
-Template repository to get started with theming quicker
+# Steam Deck Themes
+
+Just some themes I made for Steam Deck.
