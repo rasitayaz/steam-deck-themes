@@ -1,0 +1,29 @@
+{
+    "name": "Better Game Icons",
+    "author": "RasitAyaz",
+    "manifest_version": 3,
+    "target": "Home",
+    "description": "Hides background containers of game icons and provides a rounded option.",
+    "inject": {
+        "shared.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+        ]
+    },
+    "patches": {
+        "Rounded": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "rounded.css": [
+                        "SP",
+                        "MainMenu",
+                        "QuickAccess"
+                    ]
+                }
+            }
+        }
+    }
+}

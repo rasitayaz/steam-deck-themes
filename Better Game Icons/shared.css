@@ -1,0 +1,27 @@
+:root {
+  --radius: none;
+}
+
+.gamepadhomewhatsnew_GameIcon_2RrB8,
+.gamepadhomewhatsnew_GameIcon_2RrB8 img,
+.recentlycompleted_GameIcon_DqP6r,
+.recentlycompleted_GameIcon_DqP6r img,
+.mainmenu_RunningAppIcon_26pwH,
+.mainmenu_RunningAppIcon_26pwH img,
+.appactivityday_GameIcon_2B8T_,
+.appactivityday_GameIcon_2B8T_ img,
+.perf_Icon_1op4w,
+.perf_Icon_1op4w img {
+  background-color: transparent !important;
+  border-radius: var(--radius) !important;
+}
+
+.header_HeaderDownloadContainer_2ssr3 .libraryassetimage_GreyBackground_2E7G8,
+.header_HeaderDownloadContainer_2ssr3 img {
+  background-color: black;
+  border-radius: 0px !important;
+}
+
+.header_HeaderDownloadProgressBarBackground_vo3Tt {
+  background-color: #172532 !important;
+}
