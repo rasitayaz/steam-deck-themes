@@ -3,7 +3,7 @@
     "author": "RasitAyaz",
     "manifest_version": 3,
     "target": "Home",
-    "description": "Hides background containers of game icons and provides a rounded option.",
+    "description": "Hides background containers of game icons. Provides a slider to change the radius of game icons and an optional improved download indicator.",
     "inject": {
         "shared.css": [
             "SP",
