@@ -1,5 +1,5 @@
 :root {
-  --radius: none;
+  --game-icon-radius: none;
 }
 
 .gamepadhomewhatsnew_GameIcon_2RrB8,
@@ -13,15 +13,5 @@
 .perf_Icon_1op4w,
 .perf_Icon_1op4w img {
   background-color: transparent !important;
-  border-radius: var(--radius) !important;
-}
-
-.header_HeaderDownloadContainer_2ssr3 .libraryassetimage_GreyBackground_2E7G8,
-.header_HeaderDownloadContainer_2ssr3 img {
-  background-color: black;
-  border-radius: 0px !important;
-}
-
-.header_HeaderDownloadProgressBarBackground_vo3Tt {
-  background-color: #172532 !important;
+  border-radius: var(--game-icon-radius);
 }

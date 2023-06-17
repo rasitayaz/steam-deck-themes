@@ -12,12 +12,60 @@
         ]
     },
     "patches": {
-        "Rounded": {
+        "Radius": {
+            "default": "0px",
+            "type": "slider",
+            "values": {
+                "0px": {
+                    "rounded/0px.css": [
+                        "SP",
+                        "MainMenu",
+                        "QuickAccess"
+                    ]
+                },
+                "3px": {
+                    "rounded/3px.css": [
+                        "SP",
+                        "MainMenu",
+                        "QuickAccess"
+                    ]
+                },
+                "5px": {
+                    "rounded/5px.css": [
+                        "SP",
+                        "MainMenu",
+                        "QuickAccess"
+                    ]
+                },
+                "10px": {
+                    "rounded/10px.css": [
+                        "SP",
+                        "MainMenu",
+                        "QuickAccess"
+                    ]
+                },
+                "15px": {
+                    "rounded/15px.css": [
+                        "SP",
+                        "MainMenu",
+                        "QuickAccess"
+                    ]
+                },
+                "30px": {
+                    "rounded/30px.css": [
+                        "SP",
+                        "MainMenu",
+                        "QuickAccess"
+                    ]
+                }
+            }
+        },
+        "Download Indicator": {
             "type": "checkbox",
             "values": {
                 "No": {},
                 "Yes": {
-                    "rounded.css": [
+                    "download_indicator.css": [
                         "SP",
                         "MainMenu",
                         "QuickAccess"
