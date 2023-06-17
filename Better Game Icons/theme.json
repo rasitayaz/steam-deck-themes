@@ -2,7 +2,7 @@
     "name": "Better Game Icons",
     "author": "RasitAyaz",
     "manifest_version": 3,
-    "target": "Home",
+    "target": "System-Wide",
     "description": "Hides background containers of game icons. Provides a slider to change the radius of game icons and an optional improved download indicator.",
     "inject": {
         "shared.css": [
