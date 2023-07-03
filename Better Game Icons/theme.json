@@ -1,5 +1,6 @@
 {
     "name": "Better Game Icons",
+    "version": "v1.1",
     "author": "RasitAyaz",
     "manifest_version": 3,
     "target": "System-Wide",
