@@ -1,0 +1,11 @@
+{
+    "name": "Smaller Quick Access Tabs",
+    "version": "v1.0",
+    "author": "RasitAyaz",
+    "manifest_version": 3,
+    "target": "Tweak",
+    "description": "Reduces the height of quick access tabs to save some space and overcome glitches.",
+    "inject": {
+        "shared.css": ["QuickAccess"]
+    }
+}
