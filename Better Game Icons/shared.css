@@ -13,5 +13,5 @@
 .perf_Icon_1op4w,
 .perf_Icon_1op4w img {
   background-color: transparent !important;
-  border-radius: var(--game-icon-radius);
+  border-radius: var(--game-icon-radius) !important;
 }
