@@ -1,0 +1,92 @@
+.gamecapsule_InLibrary_fyHna {
+    position: absolute;
+    z-index: 100;
+    height: 24px;
+    width: 24px;
+    top: 5px;
+    right: unset;
+    bottom: unset;
+    left: 5px;
+    opacity: 1;
+    background-color: #4f95bd;
+    border-radius: 16px !important;
+    font-size: 0;
+    gap: 0;
+    padding: 4px 4px 3px 4px !important;
+    box-sizing: border-box;
+    border: #0e141b;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.appportrait_SteamDeckCompatIcon_3kDT9 {
+    top: unset;
+    right: 4px !important;
+    bottom: 4px !important;
+    left: unset;
+}
+
+.gamecapsule_DeckCompat_Tl-6l {
+    top: 4px !important;
+    right: 4px !important;
+    bottom: unset;
+    left: unset;
+}
+
+.appportrait_InRecentGames_biTV-:only-child::before,
+.appportrait_InCollection_3ANru:only-child::before,
+.appportrait_Portrait_1Pf6J .appportrait_UninstalledIcon_8YrRm {
+    top: unset;
+    bottom: 4px !important;
+    left: 4px !important;
+}
+
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
+    padding: 0px;
+    width: 16px;
+    margin-left: 10px !important;
+    color: transparent;
+    background-color: transparent !important;
+    box-shadow: none;
+    transform: none !important;
+    margin-top: -2em;
+    padding-top: 2px !important;
+    height: 20px;
+
+    z-index: 13 !important;
+    font-size: 0;
+    position: absolute;
+    top: unset;
+    bottom: 9px;
+    left: -5px;
+    opacity: 0;
+    transition: all .1s cubic-bezier(0.16, 0.86, 0.43, 0.99);
+}
+
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt svg {
+    display: none;
+}
+
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt::before {
+    content: url("data:image/svg+xml; charset=utf8, %3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%225.3%200%2025.4%2033.4%22%20fill%3D%22none%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%230e141b%22%0A%20%20%20%20%20%20%20%20d%3D%22M10.1777%2010.0258L10.3929%209.80693V9.49999V5.52777H14.2857H14.6001L14.8205%205.30358L18%202.06976L21.1795%205.30358L21.3999%205.52777H21.7143H25.6071V9.50001V9.80696L25.8223%2010.0258L28.5553%2012.8055L25.8223%2015.5853L25.6071%2015.8041V16.1111V20.0833H21.7143H21.3999L21.1795%2020.3075L18%2023.5413L14.8205%2020.3075L14.6001%2020.0833H14.2857H10.3929V16.1111V15.8042L10.1777%2015.5853L7.44464%2012.8055L10.1777%2010.0258Z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%230e141b%22%0A%20%20%20%20%20%20%20%20d%3D%22M15.7399%2026.0317L12.56%2031.4221L10.8516%2027.9469L10.6456%2027.5278H10.1786H7.29474L9.68445%2023.3611H13.1142L15.7399%2026.0317Z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%230e141b%22%0A%20%20%20%20%20%20%20%20d%3D%22M25.8214%2027.5278H25.3544L25.1484%2027.9469L23.44%2031.4221L20.2601%2026.0317L22.8858%2023.3611H26.3155L28.7053%2027.5278H25.8214Z%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E");
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    padding: 1px 3px 0 3px !important;
+    background-color: #1A9FFE !important;
+    border-radius: 16px;
+    border: 3px solid #0e141b;
+    box-sizing: border-box;
+}
+
+.appportrait_Medium_3SNGK.gpfocuswithin .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
+div[class*="appportrait_InCollection"]:hover+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
+    opacity: 1;
+    transform: translate(-4px, 5px) !important;
+}
+
+.appportrait_InCollection_3ANru:has(~ .appportrait_ClassAllAchieved_31wTt) {
+    background-color: red;
+}

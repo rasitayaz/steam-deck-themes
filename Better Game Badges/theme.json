@@ -1,0 +1,11 @@
+{
+    "name": "Better Game Badges",
+    "version": "v1.0",
+    "author": "RasitAyaz",
+    "manifest_version": 3,
+    "target": "System-Wide",
+    "description": "Replaces 'fully completed' medal, and 'in library' label with circular badges similar to compatibility icons. Also slightly adjusts positioning of compatibility and download status badges. This theme is compatible with Show Download Status, No Deck Badge and Library Move Extra Info.",
+    "inject": {
+        "shared.css": ["SP"]
+    }
+}
