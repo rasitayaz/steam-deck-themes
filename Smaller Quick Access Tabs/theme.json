@@ -6,6 +6,34 @@
     "target": "Tweak",
     "description": "Reduces the height of quick access tabs to save some space and overcome glitches.",
     "inject": {
-        "shared.css": ["QuickAccess"]
+        "shared.css": [
+            "QuickAccess"
+        ]
+    },
+    "patches": {
+        "Tab Size": {
+            "default": "Full",
+            "type": "slider",
+            "values": {
+                "Square": {
+                    "--qamTab-size": [
+                        "48px",
+                        "QuickAccess"
+                    ]
+                },
+                "Compact": {
+                    "--qamTab-size": [
+                        "52px",
+                        "QuickAccess"
+                    ]
+                },
+                "Full": {
+                    "--qamTab-size": [
+                        "56px",
+                        "QuickAccess"
+                    ]
+                }
+            }
+        }
     }
 }
