@@ -7,7 +7,7 @@
     right: unset;
     bottom: unset;
     left: 5px;
-    opacity: 1;
+    opacity: 0;
     background-color: #4f95bd;
     border-radius: 16px !important;
     font-size: 0;
@@ -17,6 +17,10 @@
     border: #0e141b;
     border-width: 3px;
     border-style: solid;
+}
+
+.gamecapsule_GameCapsule_fXdhj.gpfocuswithin .gamecapsule_InLibrary_fyHna {
+    opacity: 1;
 }
 
 .appportrait_SteamDeckCompatIcon_3kDT9 {
@@ -82,7 +86,7 @@
 }
 
 .appportrait_Medium_3SNGK.gpfocuswithin .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
-div[class*="appportrait_InCollection"]:hover+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
+.appportrait_InCollection_3ANru:hover~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
     opacity: 1;
     transform: translate(-4px, 5px) !important;
 }
