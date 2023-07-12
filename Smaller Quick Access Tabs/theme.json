@@ -11,25 +11,31 @@
         ]
     },
     "patches": {
-        "Tab Size": {
+        "Tab Height": {
             "default": "Square",
             "type": "slider",
             "values": {
                 "Square": {
-                    "--qamTab-size": [
+                    "--qam-tab-height": [
                         "48px",
                         "QuickAccess"
                     ]
                 },
-                "Compact": {
-                    "--qamTab-size": [
+                "52px": {
+                    "--qam-tab-height": [
                         "52px",
                         "QuickAccess"
                     ]
                 },
-                "Default": {
-                    "--qamTab-size": [
+                "56px": {
+                    "--qam-tab-height": [
                         "56px",
+                        "QuickAccess"
+                    ]
+                },
+                "60px": {
+                    "--qam-tab-height": [
+                        "60px",
                         "QuickAccess"
                     ]
                 }
