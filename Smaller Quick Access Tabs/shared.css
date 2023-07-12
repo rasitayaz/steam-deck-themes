@@ -1,3 +1,3 @@
 .quickaccessmenu_Tab_1S76C {
-    height: 48px;
+    height: var(--qamTab-size);
 }
