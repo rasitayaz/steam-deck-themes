@@ -12,7 +12,7 @@
     },
     "patches": {
         "Tab Size": {
-            "default": "Full",
+            "default": "Square",
             "type": "slider",
             "values": {
                 "Square": {
@@ -27,7 +27,7 @@
                         "QuickAccess"
                     ]
                 },
-                "Full": {
+                "Default": {
                     "--qamTab-size": [
                         "56px",
                         "QuickAccess"
