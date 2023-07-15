@@ -1,0 +1,109 @@
+/* shared */
+
+.achievementiconbase_RareAchievementIconGlowContainer_leuGO {
+    opacity: var(--rare-achievement-shine-opacity);
+}
+
+.achievementiconbase_Icon_2bzHb {
+    border-radius: var(--achievement-icon-radius);
+}
+
+/* game activity */
+
+.BasicUI .spotlightgameplaysummary_SummaryAchievement_qBmIH .spotlightgameplaysummary_SummaryAchievementIcon_1aeFY {
+    box-shadow: none;
+}
+
+.appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Name_39Y01 {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Desc_2gLHb {
+    font-size: 12px;
+}
+
+.appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Stats_VKo9p {
+    font-size: 12px;
+}
+
+.appactivityday_ActivityAchievementUnlocked_yJLy7 .boxcarousel_BoxCarouselContents_3CJct {
+    overflow: visible;
+}
+
+/* game page your stuff tab */
+
+.appdetailsachievementssection_AchievementCarouselItem_mbFSn.appdetailsachievementssection_Detailed_3KGi6 {
+    background-color: #ACB2C920;
+}
+
+.appdetailsachievementssection_BasicAppDetailsAchievementsSectionBody_2ie48 .boxcarousel_BoxCarouselContents_3CJct {
+    overflow: visible;
+}
+
+.appdetailsachievementssection_AchivementCarouselItemDetails_1ckvQ .appdetailsachievementssection_Name_39Y01 {
+    font-size: 15px;
+}
+
+.appdetailsachievementssection_AchivementCarouselItemDetails_1ckvQ .appdetailsachievementssection_Description_3212r {
+    white-space: normal;
+}
+
+.appdetailsachievementssection_AchivementCarouselItemDetails_1ckvQ .appdetailsachievementssection_Achieved_MGoYU {
+    color: #8C8A8A;
+}
+
+/* achievements page my achievements tab */
+
+.gpfocus .achievementslist_ProgressBar_sBzFs .progressbar_ProgressBar_1-nHj {
+    background: #3d4450;
+}
+
+.achievementslist_AchievementListItemBase_2Kmn7 .achievementslist_AchievementContent_mvXQP {
+    justify-content: center;
+}
+
+.achievementslist_AchievementListItemBase_2Kmn7 .achievementslist_AchievementContent_mvXQP > div:nth-child(1):nth-last-child(2) {
+    margin-bottom: 5px;
+}
+
+.achievementslist_AchievementListItemBase_2Kmn7 .achievementslist_AchievementContent_mvXQP > div:nth-child(2):nth-last-child(2) {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.achievementslist_AchievementListItemBase_2Kmn7 .achievementslist_Content_UWkKt {
+    height: 64px;
+}
+
+.achievementslist_AchievementListItemBase_2Kmn7 .achievementslist_AchievementTitle_17dhG {
+    font-size: 15px;
+    line-height: 1.2em;
+    max-height: 1.2em;
+    overflow: hidden;
+}
+
+.achievementslist_AchievementListItemBase_2Kmn7 .achievementslist_AchievementDescription_1WP2Y {
+    line-height: 1.3em;
+    max-height: 2.6em;
+    overflow: hidden;
+}
+
+.achievementslist_AchievementListItemBase_2Kmn7 .achievementslist_AchievementGlobalPercentage_VQbek.achievementslist_InBody_2IpxM {
+    line-height: 1.4em;
+    max-height: 1.4em;
+    display: inline-block;
+    overflow: hidden;
+}
+
+/* achievements page global achievements tab */
+
+.achievementslist_GlobalAchievementListItem_316Uo .achievementslist_Percent_17WmA {
+    margin-left: 10px;
+}
+
+.achievementslist_GlobalAchievementListItem_316Uo .achievementslist_Description_231ll {
+    line-height: 1.4em;
+    max-height: 2.8em;
+    overflow: hidden;
+}
