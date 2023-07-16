@@ -4,7 +4,7 @@
     "author": "RasitAyaz",
     "manifest_version": 5,
     "target": "System-Wide",
-    "description": "Fixes some achievement display issues, multilines achievement descriptions as much as possible, adds options to customize rare achievement shine animation and achievement icon radius.",
+    "description": "Fixes some achievement display issues like single line descriptions, overflowing texts, etc. Adds options to customize rare achievement shine animation and achievement icon radius.",
     "inject": {
         "shared.css": [
             "SP",
