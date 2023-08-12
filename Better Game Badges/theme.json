@@ -4,7 +4,7 @@
     "author": "RasitAyaz",
     "manifest_version": 5,
     "target": "System-Wide",
-    "description": "Replaces 'fully completed' medal, 'in library' label with circular badges similar to compatibility icons. Slightly adjusts positioning of compatibility and download status badges. Removes library info box for soundtracks and non-Steam games, as well as compatibility icons for soundtracks. I recommend using this theme with 'Show Download Status' (circular variant), 'No Deck Badge' and 'Library Move Extra Info' themes.",
+    "description": "Replaces 'fully completed' medal, 'in library' label with circular badges similar to compatibility icons. Slightly adjusts positioning of compatibility and download status badges. Removes info box for the capsules in 'Non-Steam' tab (Doesn't apply to custom TabMaster tabs). Removes info box and compatibility badge for soundtracks. I recommend using this theme with 'Show Download Status' (circular variant), 'No Deck Badge' and 'Library Move Extra Info' themes.",
     "inject": {
         "shared.css": [
             "SP"
