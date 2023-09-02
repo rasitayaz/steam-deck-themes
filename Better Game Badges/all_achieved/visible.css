@@ -1,0 +1,10 @@
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
+  opacity: 1;
+}
+
+.gpfocuswithin
+  > .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
+.appportrait_InCollection_3ANru:hover
+  ~ .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
+  transform: translate(-4px, 5px) !important;
+}

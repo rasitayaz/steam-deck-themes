@@ -1,13 +1,108 @@
 {
-    "name": "Better Game Badges",
-    "version": "v1.2",
-    "author": "RasitAyaz",
-    "manifest_version": 5,
-    "target": "System-Wide",
-    "description": "Replaces 'fully completed' medal, 'in library' label with circular badges similar to compatibility icons. Slightly adjusts positioning of compatibility and download status badges. Removes info box for the capsules in 'Non-Steam' tab (Doesn't apply to custom TabMaster tabs). Removes info box and compatibility badge for soundtracks. I recommend using this theme with 'Show Download Status' (circular variant), 'No Deck Badge' and 'Library Move Extra Info' themes.",
-    "inject": {
-        "shared.css": [
-            "SP"
-        ]
+  "name": "Better Game Badges",
+  "version": "v1.3",
+  "author": "RasitAyaz",
+  "manifest_version": 5,
+  "target": "System-Wide",
+  "description": "Provides some options to customize the game capsule badges, you can make badges on the highlighted game disappear after a delay. Replaces 'all achieved' medal, 'in library' label with circular badges similar to compatibility icons. Removes info box for the capsules in 'Non-Steam' tab (Doesn't apply to custom TabMaster tabs). Hides info box and compatibility badge for soundtracks. This theme works great with 'Show Download Status' (circular variant) and 'Library Move Extra Info' themes.",
+  "inject": {
+    "shared.css": ["SP"]
+  },
+  "patches": {
+    "Compatibility badges": {
+      "default": "Visible when highlighted",
+      "type": "dropdown",
+      "values": {
+        "Hidden": {
+          "compatibility/hidden.css": ["SP"]
+        },
+        "Visible when highlighted": {},
+        "Always visible": {
+          "compatibility/visible.css": ["SP"]
+        }
+      }
+    },
+    "Compatibility badge style": {
+      "default": "Without the Deck icon",
+      "type": "dropdown",
+      "values": {
+        "Without the Deck icon": {
+          "compatibility/no_deck_icon.css": ["SP"]
+        },
+        "With the Deck icon": {}
+      }
+    },
+    "All achieved badges": {
+      "default": "Visible when highlighted",
+      "type": "dropdown",
+      "values": {
+        "Hidden": {
+          "all_achieved/hidden.css": ["SP"]
+        },
+        "Visible when highlighted": {
+          "all_achieved/highlighted.css": ["SP"]
+        },
+        "Always visible": {
+          "all_achieved/visible.css": ["SP"]
+        }
+      }
+    },
+    "In library badges": {
+      "default": "Visible when highlighted",
+      "type": "dropdown",
+      "values": {
+        "Hidden": {
+          "in_library/hidden.css": ["SP"]
+        },
+        "Visible when highlighted": {
+          "in_library/highlighted.css": ["SP"]
+        },
+        "Always visible": {
+          "in_library/visible.css": ["SP"]
+        }
+      }
+    },
+    "Library info boxes": {
+      "default": "Always visible",
+      "type": "dropdown",
+      "values": {
+        "Hidden": {
+          "info_box/hidden.css": ["SP"]
+        },
+        "Visible when highlighted": {
+          "info_box/highlighted.css": ["SP"]
+        },
+        "Always visible": {
+          "info_box/visible.css": ["SP"]
+        }
+      }
+    },
+    "Hide badges after (seconds)": {
+      "default": "0.75",
+      "type": "slider",
+      "values": {
+        "Never": {},
+        "0.75": {
+          "fade_out_badges.css": ["SP"],
+          "--badge-fade-delay": ["0.75s", "SP"]
+        },
+        "1": {
+          "fade_out_badges.css": ["SP"],
+          "--badge-fade-delay": ["1s", "SP"]
+        },
+        "1.5": {
+          "fade_out_badges.css": ["SP"],
+          "--badge-fade-delay": ["1.5s", "SP"]
+        },
+        "2": {
+          "fade_out_badges.css": ["SP"],
+          "--badge-fade-delay": ["2s", "SP"]
+        },
+        "3": {
+          "fade_out_badges.css": ["SP"],
+          "--badge-fade-delay": ["3s", "SP"]
+        }
+      }
     }
+  }
 }

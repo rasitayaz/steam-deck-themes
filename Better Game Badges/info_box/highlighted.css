@@ -1,0 +1,8 @@
+.appportrait_LibraryItemBoxSubscript_1LJqx {
+  opacity: 0;
+}
+
+.gpfocuswithin > .appportrait_LibraryItemBoxSubscript_1LJqx,
+div:hover > .appportrait_LibraryItemBoxSubscript_1LJqx {
+  opacity: 1;
+}
