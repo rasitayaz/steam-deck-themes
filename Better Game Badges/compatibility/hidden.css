@@ -1,8 +1,4 @@
 .BasicUI .appportrait_LibraryItemBox_WYgDg .appportrait_SteamDeckCompatIcon_3kDT9,
-.BasicUI .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg:hover .appportrait_SteamDeckCompatIcon_3kDT9 {
-  opacity: 0;
-}
-
 .BasicUI .gamecapsule_GameCapsule_fXdhj .gamecapsule_DeckCompat_Tl-6l {
   display: none;
 }

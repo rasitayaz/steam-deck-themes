@@ -1,8 +1,4 @@
 .BasicUI .appportrait_LibraryItemBox_WYgDg:only-child::before,
-.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus:only-child::before,
-.BasicUI .appportrait_LibraryItemBox_WYgDg:hover:only-child::before,
-.BasicUI .appportrait_LibraryItemBox_WYgDg .appportrait_UninstalledIcon_8YrRm,
-.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus .appportrait_UninstalledIcon_8YrRm,
-.BasicUI .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg:hover .appportrait_UninstalledIcon_8YrRm {
-  opacity: 0;
+.BasicUI .appportrait_LibraryItemBox_WYgDg .appportrait_UninstalledIcon_8YrRm {
+  display: none;
 }
