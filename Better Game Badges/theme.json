@@ -16,7 +16,9 @@
         "Hidden": {
           "compatibility/hidden.css": ["SP"]
         },
-        "Visible when highlighted": {},
+        "Visible when highlighted": {
+          "compatibility/highlighted.css": ["SP"]
+        },
         "Always visible": {
           "compatibility/visible.css": ["SP"]
         }

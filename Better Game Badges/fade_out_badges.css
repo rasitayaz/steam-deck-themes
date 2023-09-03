@@ -4,22 +4,15 @@
   }
 }
 
-.appportrait_LibraryItemBox_WYgDg.gpfocuswithin
-  .appportrait_SteamDeckCompatIcon_3kDT9,
+.appportrait_LibraryItemBox_WYgDg.Focusable:focus .appportrait_SteamDeckCompatIcon_3kDT9,
 .appportrait_LibraryItemBox_WYgDg:hover .appportrait_SteamDeckCompatIcon_3kDT9,
-.gpfocuswithin
-  > .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
-.appportrait_InCollection_3ANru:hover
-  ~ .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
-.appportrait_InRecentGames_biTV-.gpfocuswithin:only-child::before,
-.appportrait_InCollection_3ANru.gpfocuswithin:only-child::before,
-.appportrait_InRecentGames_biTV-:hover:only-child::before,
-.appportrait_InCollection_3ANru:hover:only-child::before,
-.appportrait_HoversEnabled_54PuC
-  .appportrait_LibraryItemBox_WYgDg:hover
-  .appportrait_UninstalledIcon_8YrRm,
-.appportrait_LibraryItemBox_WYgDg.gpfocus .appportrait_UninstalledIcon_8YrRm,
-.gamecapsule_GameCapsule_fXdhj.gpfocus .gamecapsule_DeckCompat_Tl-6l,
-.gamecapsule_GameCapsule_fXdhj.gpfocus .gamecapsule_InLibrary_fyHna {
+.appportrait_LibraryItemBox_WYgDg.Focusable:focus~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
+.appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
+.appportrait_LibraryItemBox_WYgDg.Focusable:focus:only-child::before,
+.appportrait_LibraryItemBox_WYgDg:hover:only-child::before,
+.appportrait_LibraryItemBox_WYgDg.Focusable:focus .appportrait_UninstalledIcon_8YrRm,
+.appportrait_LibraryItemBox_WYgDg:hover .appportrait_UninstalledIcon_8YrRm,
+.gamecapsule_GameCapsule_fXdhj.Focusable:focus .gamecapsule_DeckCompat_Tl-6l,
+.gamecapsule_GameCapsule_fXdhj.Focusable:focus .gamecapsule_InLibrary_fyHna {
   animation: fadeOut 0.3s ease-in-out var(--badge-fade-delay) forwards;
 }

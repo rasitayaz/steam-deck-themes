@@ -40,29 +40,27 @@
   left: 4px !important;
 }
 
-.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
+.BasicUI .appportrait_Draggable_1pwP4>.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
+.BasicUI .appportrait_Draggable_1pwP4>.appportrait_LibraryItemBox_WYgDg.Focusable:focus~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
+.BasicUI .appportrait_Draggable_1pwP4>.appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
   padding: 0px;
   width: 16px;
-  margin-left: 10px !important;
   color: transparent;
   background-color: transparent !important;
   box-shadow: none;
-  transform: none !important;
-  margin-top: -2em;
   padding-top: 2px !important;
   height: 20px;
+  left: 4px;
+  bottom: 8px;
 
   z-index: 13 !important;
   font-size: 0;
   position: absolute;
   top: unset;
-  bottom: 9px;
-  left: -5px;
-  transition: all 0.1s cubic-bezier(0.16, 0.86, 0.43, 0.99);
+  transition: all .1s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
-.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt
-  svg {
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt svg {
   display: none;
 }
 
@@ -80,8 +78,7 @@
   box-sizing: border-box;
 }
 
-.librarydesktopapps_DesktopApps_2-gV0
-  .appportrait_LibraryItemBoxSubscript_1LJqx,
+.librarydesktopapps_DesktopApps_2-gV0 .appportrait_LibraryItemBoxSubscript_1LJqx,
 .appportrait_Soundtrack_3Lu_5 .appportrait_LibraryItemBoxSubscript_1LJqx,
 .appportrait_Soundtrack_3Lu_5 .appportrait_SteamDeckCompatIcon_3kDT9 {
   display: none;

@@ -2,10 +2,8 @@
   opacity: 0;
 }
 
-.gpfocuswithin
-  > .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
-.appportrait_InCollection_3ANru:hover
-  ~ .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
+.appportrait_LibraryItemBox_WYgDg.Focusable:focus~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
+.appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
   opacity: 1;
-  transform: translate(-4px, 5px) !important;
+  transform: translate(-5px, 5px);
 }

@@ -2,6 +2,6 @@
   opacity: 0;
 }
 
-.gamecapsule_GameCapsule_fXdhj.gpfocuswithin .gamecapsule_InLibrary_fyHna {
+.gamecapsule_GameCapsule_fXdhj.Focusable:focus .gamecapsule_InLibrary_fyHna {
   opacity: 1;
 }
