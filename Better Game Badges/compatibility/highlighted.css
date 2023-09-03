@@ -1,8 +1,8 @@
-.appportrait_LibraryItemBox_WYgDg.Focusable:focus .appportrait_SteamDeckCompatIcon_3kDT9,
-.appportrait_LibraryItemBox_WYgDg:hover .appportrait_SteamDeckCompatIcon_3kDT9 {
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus .appportrait_SteamDeckCompatIcon_3kDT9,
+.BasicUI .appportrait_LibraryItemBox_WYgDg:hover .appportrait_SteamDeckCompatIcon_3kDT9 {
   opacity: 1;
 }
 
-.gamecapsule_GameCapsule_fXdhj.Focusable:focus .gamecapsule_DeckCompat_Tl-6l {
+.BasicUI .gamecapsule_GameCapsule_fXdhj.Focusable:focus .gamecapsule_DeckCompat_Tl-6l {
   display: flex;
 }

@@ -10,13 +10,13 @@
   },
   "patches": {
     "Compatibility badges": {
-      "default": "Visible when highlighted",
+      "default": "Visible on focus",
       "type": "dropdown",
       "values": {
         "Hidden": {
           "compatibility/hidden.css": ["SP"]
         },
-        "Visible when highlighted": {
+        "Visible on focus": {
           "compatibility/highlighted.css": ["SP"]
         },
         "Always visible": {
@@ -35,13 +35,13 @@
       }
     },
     "All achieved badges": {
-      "default": "Visible when highlighted",
+      "default": "Visible on focus",
       "type": "dropdown",
       "values": {
         "Hidden": {
           "all_achieved/hidden.css": ["SP"]
         },
-        "Visible when highlighted": {
+        "Visible on focus": {
           "all_achieved/highlighted.css": ["SP"]
         },
         "Always visible": {
@@ -50,13 +50,13 @@
       }
     },
     "In library badges": {
-      "default": "Visible when highlighted",
+      "default": "Visible on focus",
       "type": "dropdown",
       "values": {
         "Hidden": {
           "in_library/hidden.css": ["SP"]
         },
-        "Visible when highlighted": {
+        "Visible on focus": {
           "in_library/highlighted.css": ["SP"]
         },
         "Always visible": {
@@ -84,7 +84,7 @@
         "Hidden": {
           "info_box/hidden.css": ["SP"]
         },
-        "Visible when highlighted": {
+        "Visible on focus": {
           "info_box/highlighted.css": ["SP"]
         },
         "Always visible": {

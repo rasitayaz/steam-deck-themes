@@ -1,7 +1,7 @@
-.appportrait_LibraryItemBox_WYgDg .appportrait_SteamDeckCompatIcon_3kDT9 {
+.BasicUI .appportrait_LibraryItemBox_WYgDg .appportrait_SteamDeckCompatIcon_3kDT9 {
   opacity: 1;
 }
 
-.gamecapsule_GameCapsule_fXdhj .gamecapsule_DeckCompat_Tl-6l {
+.BasicUI .gamecapsule_GameCapsule_fXdhj .gamecapsule_DeckCompat_Tl-6l {
   display: flex;
 }

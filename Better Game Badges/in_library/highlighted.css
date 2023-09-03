@@ -1,7 +1,7 @@
-.gamecapsule_InLibrary_fyHna {
+.BasicUI .gamecapsule_InLibrary_fyHna {
   opacity: 0;
 }
 
-.gamecapsule_GameCapsule_fXdhj.Focusable:focus .gamecapsule_InLibrary_fyHna {
+.BasicUI .gamecapsule_GameCapsule_fXdhj.Focusable:focus .gamecapsule_InLibrary_fyHna {
   opacity: 1;
 }
