@@ -64,6 +64,19 @@
         }
       }
     },
+    "Download status badges": {
+      "default": "Default",
+      "type": "dropdown",
+      "values": {
+        "Hidden": {
+          "download_status/hidden.css": ["SP"]
+        },
+        "Default": {},
+        "Always visible": {
+          "download_status/visible.css": ["SP"]
+        }
+      }
+    },
     "Library info boxes": {
       "default": "Always visible",
       "type": "dropdown",
