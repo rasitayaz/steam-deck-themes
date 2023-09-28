@@ -25,17 +25,21 @@
       }
     },
     "Compatibility badge style": {
-      "default": "Without the Deck icon",
+      "default": "Hide the Deck icon",
       "type": "dropdown",
       "values": {
-        "Without the Deck icon": {
+        "Hide the Deck icon, playable & verified badges": {
+          "compatibility/no_deck_icon.css": ["SP"],
+          "compatibility/no_playable_verified.css": ["SP"]
+        },
+        "Hide the Deck icon & verified badge": {
+          "compatibility/no_deck_icon.css": ["SP"],
+          "compatibility/no_verified.css": ["SP"]
+        },
+        "Hide the Deck icon": {
           "compatibility/no_deck_icon.css": ["SP"]
         },
-        "With the Deck icon": {},
-        "Hide Verified & Playable & Deck icon": {
-          "compatibility/no_deck_icon.css": ["SP"],
-          "compatibility/hideplayable.css": ["SP"]
-        }
+        "Show all": {}
       }
     },
     "All achieved badges": {
