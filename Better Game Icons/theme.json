@@ -1,78 +1,52 @@
 {
-    "name": "Better Game Icons",
-    "version": "v1.2",
-    "author": "RasitAyaz",
-    "manifest_version": 3,
-    "target": "System-Wide",
-    "description": "Hides background containers of game icons. Note that icons must have a transparent background to see this effect, you can change your icons with transparent ones using SteamGridDB plugin. This theme also provides a slider to change the radius of game icons and an optional improved download indicator.",
-    "inject": {
-        "shared.css": [
-            "SP",
-            "MainMenu",
-            "QuickAccess"
-        ]
-    },
-    "patches": {
-        "Radius": {
-            "default": "0px",
-            "type": "slider",
-            "values": {
-                "0px": {
-                    "rounded/0px.css": [
-                        "SP",
-                        "MainMenu",
-                        "QuickAccess"
-                    ]
-                },
-                "3px": {
-                    "rounded/3px.css": [
-                        "SP",
-                        "MainMenu",
-                        "QuickAccess"
-                    ]
-                },
-                "5px": {
-                    "rounded/5px.css": [
-                        "SP",
-                        "MainMenu",
-                        "QuickAccess"
-                    ]
-                },
-                "10px": {
-                    "rounded/10px.css": [
-                        "SP",
-                        "MainMenu",
-                        "QuickAccess"
-                    ]
-                },
-                "15px": {
-                    "rounded/15px.css": [
-                        "SP",
-                        "MainMenu",
-                        "QuickAccess"
-                    ]
-                },
-                "30px": {
-                    "rounded/30px.css": [
-                        "SP",
-                        "MainMenu",
-                        "QuickAccess"
-                    ]
-                }
-            }
+  "name": "Better Game Icons",
+  "version": "v1.2",
+  "author": "RasitAyaz",
+  "manifest_version": 5,
+  "target": "System-Wide",
+  "description": "Hides background containers of game icons. Note that icons must have a transparent background to see this effect, you can change your icons with transparent ones using SteamGridDB plugin. This theme also provides a slider to change the radius of game icons and an optional improved download indicator.",
+  "inject": {
+    "shared.css": ["SP", "MainMenu", "QuickAccess"]
+  },
+  "patches": {
+    "Radius": {
+      "default": "0px",
+      "type": "slider",
+      "values": {
+        "0px": {
+          "--game-icon-radius": ["0px", "SP", "MainMenu", "QuickAccess"]
         },
-        "Download Indicator": {
-            "type": "checkbox",
-            "values": {
-                "No": {},
-                "Yes": {
-                    "download_indicator.css": [
-                        "SP",
-                        "MainMenu",
-                        "QuickAccess"
-                    ]
-                }
-            }
+        "3px": {
+          "--game-icon-radius": ["3px", "SP", "MainMenu", "QuickAccess"]
+        },
+        "5px": {
+          "--game-icon-radius": ["5px", "SP", "MainMenu", "QuickAccess"]
+        },
+        "10px": {
+          "--game-icon-radius": ["10px", "SP", "MainMenu", "QuickAccess"]
+        },
+        "15px": {
+          "--game-icon-radius": ["15px", "SP", "MainMenu", "QuickAccess"]
+        },
+        "30px": {
+          "--game-icon-radius": ["30px", "SP", "MainMenu", "QuickAccess"]
         }
+      }
+    },
+    "Downloading Icon Background ": {
+      "default": "Transparent",
+      "type": "dropdown",
+      "values": {
+        "Transparent": {
+          "download_indicator_bg/transparent.css": ["SP"]
+        },
+        "Transparent with shadow": {
+          "download_indicator_bg/transparent_with_shadow.css": ["SP"]
+        },
+        "Black": {
+          "download_indicator_bg/black.css": ["SP"]
+        }
+      }
     }
+  }
 }

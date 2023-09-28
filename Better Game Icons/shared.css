@@ -13,11 +13,39 @@
 .perf_Icon_1op4w,
 .perf_Icon_1op4w img,
 .basicpartnereventspage_GameIconAndName_3R5H5 .libraryassetimage_Container_1R9r2,
-.basicpartnereventspage_GameIconAndName_3R5H5 .libraryassetimage_Container_1R9r2 img {
+.basicpartnereventspage_GameIconAndName_3R5H5 .libraryassetimage_Container_1R9r2 img,
+.appdetailssoundtrack_ParentGameIcon_Pc5ZA,
+.appdetailssoundtrack_ParentGameIcon_Pc5ZA img,
+img.GameIcon {
   background-color: transparent !important;
   border-radius: var(--game-icon-radius) !important;
 }
 
 .basicpartnereventspage_GameIconAndName_3R5H5 .libraryassetimage_Container_1R9r2 {
   width: 32px;
+}
+
+.header_HeaderDownloadProgressBarBackground_vo3Tt {
+  background-color: #172532 !important;
+}
+
+.header_HeaderDownloadContainer_2ssr3 .libraryassetimage_GreyBackground_2E7G8,
+.header_HeaderDownloadContainer_2ssr3 img {
+  border-radius: 0px !important;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
+.header_HeaderDownloadContainer_2ssr3>svg>path:first-child {
+  animation-duration: 0.15s;
+  animation-fill-mode: both;
+  animation-delay: 1.95s;
+}
+
+.header_HeaderDownloadContainer_2ssr3.header_NewAppDownloading_1eMUq>svg>path:first-child {
+  animation-name: fadeOut;
 }
