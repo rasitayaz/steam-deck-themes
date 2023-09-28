@@ -1,10 +1,10 @@
 {
   "name": "Better Game Badges",
-  "version": "v1.4",
+  "version": "v1.5",
   "author": "RasitAyaz",
   "manifest_version": 5,
   "target": "System-Wide",
-  "description": "Provides some options to customize the game capsule badges, for example, badges on the highlighted game disappear after a delay by default. Replaces 'all achieved' medals, 'in library' labels with circular badges similar to compatibility badges. Removes info box for the capsules in 'Non-Steam' tab (Doesn't apply to custom TabMaster tabs). Hides info box and compatibility badge for soundtracks. This theme works great with 'Show Download Status' (circular variant) and 'Library Move Extra Info' themes.",
+  "description": "Provides some options to customize the game capsule badges, for example, badges on the highlighted game disappear after a delay by default. Replaces 'all achieved' medals, 'in library' labels with circular badges similar to compatibility badges. Removes unnecessary info box for the capsules in 'Non-Steam' tab (Doesn't apply to custom TabMaster tabs). Hides info box and compatibility badge for soundtracks. It works great with 'Show Download Status' (circular variant) and 'Library Move Extra Info' themes.",
   "inject": {
     "shared.css": ["SP"]
   },
