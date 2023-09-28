@@ -1,10 +1,10 @@
 {
   "name": "Better Game Icons",
-  "version": "v1.2",
+  "version": "v1.3",
   "author": "RasitAyaz",
   "manifest_version": 5,
   "target": "System-Wide",
-  "description": "Hides background containers of game icons. Note that icons must have a transparent background to see this effect, you can change your icons with transparent ones using SteamGridDB plugin. This theme also provides a slider to change the radius of game icons and an optional improved download indicator.",
+  "description": "Hides background containers of game icons. Note that icons must have a transparent background to see this effect, you can change your icons with transparent ones using SteamGridDB plugin. It also provides a slider to change the radius of game icons.",
   "inject": {
     "shared.css": ["SP", "MainMenu", "QuickAccess"]
   },
