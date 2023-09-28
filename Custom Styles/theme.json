@@ -1,0 +1,11 @@
+{
+  "name": "Custom Styles",
+  "version": "v1.0",
+  "author": "RasitAyaz",
+  "manifest_version": 5,
+  "target": "System-Wide",
+  "description": "Some personal styles",
+  "inject": {
+    "shared.css": ["SP"]
+  }
+}
