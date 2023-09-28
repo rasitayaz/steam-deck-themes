@@ -31,7 +31,11 @@
         "Without the Deck icon": {
           "compatibility/no_deck_icon.css": ["SP"]
         },
-        "With the Deck icon": {}
+        "With the Deck icon": {},
+        "Hide Verified & Playable & Deck icon": {
+          "compatibility/no_deck_icon.css": ["SP"],
+          "compatibility/hideplayable.css": ["SP"]
+        }
       }
     },
     "All achieved badges": {
