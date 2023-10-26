@@ -1,7 +1,11 @@
 /* shared */
 
+.achievementiconbase_Icon_2bzHb.achievementiconbase_IconGlow_tH67c {
+    box-shadow: 0px 0px 2px 1px rgba(255, 184, 78, .6), 0px 0px 8px 1px rgba(255, 184, 78, .4);
+}
+
 .achievementiconbase_RareAchievementIconGlowContainer_leuGO {
-    opacity: var(--rare-achievement-shine-opacity);
+    opacity: 0.5;
 }
 
 .achievementiconbase_Icon_2bzHb {
@@ -37,10 +41,6 @@
     background-color: #ACB2C920;
 }
 
-.appdetailsachievementssection_BasicAppDetailsAchievementsSectionBody_2ie48 .boxcarousel_BoxCarouselContents_3CJct {
-    overflow: visible;
-}
-
 .appdetailsachievementssection_AchivementCarouselItemDetails_1ckvQ .appdetailsachievementssection_Name_39Y01 {
     font-size: 15px;
 }
@@ -63,11 +63,11 @@
     justify-content: center;
 }
 
-.achievementslist_AchievementListItemBase_2Kmn7 .achievementslist_AchievementContent_mvXQP > div:nth-child(1):nth-last-child(2) {
+.achievementslist_AchievementListItemBase_2Kmn7 .achievementslist_AchievementContent_mvXQP>div:nth-child(1):nth-last-child(2) {
     margin-bottom: 5px;
 }
 
-.achievementslist_AchievementListItemBase_2Kmn7 .achievementslist_AchievementContent_mvXQP > div:nth-child(2):nth-last-child(2) {
+.achievementslist_AchievementListItemBase_2Kmn7 .achievementslist_AchievementContent_mvXQP>div:nth-child(2):nth-last-child(2) {
     margin-top: auto;
     margin-bottom: auto;
 }

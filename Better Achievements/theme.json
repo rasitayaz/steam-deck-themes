@@ -36,47 +36,6 @@
                 }
             }
         },
-        "Rare Shine Opacity": {
-            "default": "0.4",
-            "type": "slider",
-            "values": {
-                "0.2": {
-                    "--rare-achievement-shine-opacity": [
-                        "0.2",
-                        "SP",
-                        "MainMenu"
-                    ]
-                },
-                "0.4": {
-                    "--rare-achievement-shine-opacity": [
-                        "0.4",
-                        "SP",
-                        "MainMenu"
-                    ]
-                },
-                "0.6": {
-                    "--rare-achievement-shine-opacity": [
-                        "0.6",
-                        "SP",
-                        "MainMenu"
-                    ]
-                },
-                "0.8": {
-                    "--rare-achievement-shine-opacity": [
-                        "0.8",
-                        "SP",
-                        "MainMenu"
-                    ]
-                },
-                "1": {
-                    "--rare-achievement-shine-opacity": [
-                        "1",
-                        "SP",
-                        "MainMenu"
-                    ]
-                }
-            }
-        },
         "Achievement Icon Radius": {
             "default": "0px",
             "type": "slider",
