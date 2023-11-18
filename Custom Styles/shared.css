@@ -3,11 +3,20 @@
   outline: none;
 }
 
-.appproperties_AppProperties_1FyBL .gamepadpagedsettings_PagedSettingsDialog_PageContent_wIOLO button.appproperties_ShortcutChange_2MgqW {
-  width: 10px;
+.gamepadhomerecentgames_RecentGamesHeader_35iRe.gamepadhomerecentgames_HeaderEnter_1_JU4 {
+  opacity: 0;
 }
 
-#hltb-for-deck>.hltb-info {
-  padding-top: 0px;
-  padding-bottom: 2px;
+.BasicUI .DialogBody.contentmanagement_ContentManagement_3wk64.contentmanagement_InPagedSettings_1-m8p,
+.BasicUI .contentmanagement_InPagedSettings_1-m8p>.contentmanagement_LibraryContent_ybEU2 {
+  padding-top: 0;
+}
+
+.BasicUI .contentmanagement_LibraryContent_ybEU2 .contentmanagement_AppsGrid_2n6FN {
+  margin-top: 0;
+}
+
+.BasicUI .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:focus,
+.BasicUI .sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW:focus {
+  border-radius: var(--round-radius-size);
 }
