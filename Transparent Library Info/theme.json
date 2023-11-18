@@ -1,0 +1,22 @@
+{
+  "name": "Transparent Library Info",
+  "version": "v1.0",
+  "author": "RasitAyaz",
+  "manifest_version": 5,
+  "target": "Library",
+  "inject": {
+    "shared.css": ["SP"]
+  },
+  "patches": {
+    "All achieved medals": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "No": {
+          "no_all_achieved_medal.css": ["SP"]
+        },
+        "Yes": {}
+      }
+    }
+  }
+}
