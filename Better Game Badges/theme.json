@@ -70,6 +70,19 @@
         }
       }
     },
+    "Install status badge style": {
+      "default": "Show both",
+      "type": "dropdown",
+      "values": {
+        "Hide installed badge": {
+          "install_status/no_installed.css": ["SP"]
+        },
+        "Hide uninstalled badge": {
+          "install_status/no_uninstalled.css": ["SP"]
+        },
+        "Show both": {}
+      }
+    },
     "Hide badges after (seconds)": {
       "default": "0.75",
       "type": "slider",
