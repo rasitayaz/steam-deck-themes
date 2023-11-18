@@ -18,62 +18,11 @@
   border-style: solid;
 }
 
-.BasicUI .appportrait_LibraryItemBox_WYgDg .appportrait_SteamDeckCompatIcon_3kDT9 {
-  top: unset;
-  right: 4px;
-  bottom: 4px;
-  left: unset;
-}
-
 .BasicUI .gamecapsule_GameCapsule_fXdhj .gamecapsule_DeckCompat_Tl-6l {
   top: 4px;
   right: 4px;
   bottom: unset;
   left: unset;
-}
-
-.BasicUI .appportrait_LibraryItemBox_WYgDg:only-child::before,
-.BasicUI .appportrait_Portrait_1Pf6J .appportrait_UninstalledIcon_8YrRm {
-  top: unset;
-  bottom: 4px;
-  left: 4px;
-}
-
-.BasicUI .appportrait_Draggable_1pwP4>.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
-.BasicUI .appportrait_Draggable_1pwP4>.appportrait_LibraryItemBox_WYgDg.Focusable:focus~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
-.BasicUI .appportrait_Draggable_1pwP4>.appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
-  padding: 0px;
-  width: 16px;
-  color: transparent;
-  background-color: transparent;
-  box-shadow: none;
-  padding-top: 2px;
-  height: 20px;
-  top: unset;
-  bottom: 8px;
-  left: 4px;
-  z-index: 13;
-  font-size: 0;
-  position: absolute;
-  transition: all .1s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt svg {
-  display: none;
-}
-
-.BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt::before {
-  content: url("data:image/svg+xml; charset=utf8, %3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%225.3%200%2025.4%2033.4%22%20fill%3D%22none%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%230e141b%22%0A%20%20%20%20%20%20%20%20d%3D%22M10.1777%2010.0258L10.3929%209.80693V9.49999V5.52777H14.2857H14.6001L14.8205%205.30358L18%202.06976L21.1795%205.30358L21.3999%205.52777H21.7143H25.6071V9.50001V9.80696L25.8223%2010.0258L28.5553%2012.8055L25.8223%2015.5853L25.6071%2015.8041V16.1111V20.0833H21.7143H21.3999L21.1795%2020.3075L18%2023.5413L14.8205%2020.3075L14.6001%2020.0833H14.2857H10.3929V16.1111V15.8042L10.1777%2015.5853L7.44464%2012.8055L10.1777%2010.0258Z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%230e141b%22%0A%20%20%20%20%20%20%20%20d%3D%22M15.7399%2026.0317L12.56%2031.4221L10.8516%2027.9469L10.6456%2027.5278H10.1786H7.29474L9.68445%2023.3611H13.1142L15.7399%2026.0317Z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%230e141b%22%0A%20%20%20%20%20%20%20%20d%3D%22M25.8214%2027.5278H25.3544L25.1484%2027.9469L23.44%2031.4221L20.2601%2026.0317L22.8858%2023.3611H26.3155L28.7053%2027.5278H25.8214Z%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E");
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  padding: 1px 3px 0 3px;
-  background-color: #1a9ffe;
-  border-radius: 16px;
-  border: 3px solid #0e141b;
-  box-sizing: border-box;
 }
 
 .BasicUI .librarydesktopapps_DesktopApps_2-gV0 .appportrait_LibraryItemBoxSubscript_1LJqx,
@@ -82,14 +31,36 @@
   display: none;
 }
 
-.BasicUI .appportrait_Draggable_1pwP4>.appportrait_LibraryItemBox_WYgDg.Focusable:focus~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
-.BasicUI .appportrait_Draggable_1pwP4>.appportrait_LibraryItemBox_WYgDg.Focusable:focus:only-child::before,
-.BasicUI .appportrait_Draggable_1pwP4>.appportrait_LibraryItemBox_WYgDg.Focusable:focus .appportrait_UninstalledIcon_8YrRm {
-  transition: transform .25s cubic-bezier(0.22, 1, 0.36, 1), opacity 0s;
+.BasicUI .shared_svg_library_SteamDeckCompatInfo_2LcFI {
+  background-color: #0e141b;
 }
 
-.BasicUI .appportrait_Draggable_1pwP4>.appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
-.BasicUI .appportrait_Draggable_1pwP4>.appportrait_LibraryItemBox_WYgDg:hover:only-child::before,
+.BasicUI .appportrait_LibraryBottomItems_tvCvy>div.appportrait_LibraryItemIcons_3BPFq:only-child:before,
+.BasicUI .appportrait_Portrait_1Pf6J .appportrait_UninstalledIcon_8YrRm {
+  top: unset;
+  left: 4px;
+  bottom: 4px;
+}
+
+.BasicUI .appportrait_Draggable_1pwP4>.appportrait_LibraryItemBox_WYgDg.Focusable:focus .appportrait_LibraryItemIcons_3BPFq:only-child::before,
+.BasicUI .appportrait_Draggable_1pwP4>.appportrait_LibraryItemBox_WYgDg.Focusable:focus .appportrait_UninstalledIcon_8YrRm {
+  transition: transform .25s cubic-bezier(0.22, 1, 0.36, 1), opacity 0s;
+  opacity: 1;
+}
+
+.BasicUI .appportrait_Draggable_1pwP4>.appportrait_LibraryItemBox_WYgDg:hover .appportrait_LibraryItemIcons_3BPFq:only-child::before,
 .BasicUI .appportrait_Draggable_1pwP4>.appportrait_LibraryItemBox_WYgDg:hover .appportrait_UninstalledIcon_8YrRm {
   transition: transform .1s cubic-bezier(0.22, 1, 0.36, 1), opacity .25s ease-out;
+  opacity: 1;
+}
+
+.BasicUI .appportrait_InRecentGames_biTV-.gpfocuswithin div[class*="appportrait_LibraryItemIcons"]:only-child:before,
+.BasicUI .appportrait_InCollection_3ANru.gpfocuswithin div[class*="appportrait_LibraryItemIcons"]:only-child:before,
+.BasicUI .appportrait_InRecentGames_biTV-:hover:only-child::before,
+.BasicUI .appportrait_InCollection_3ANru:hover:only-child::before,
+.BasicUI .appportrait_InRecentGames_biTV-.gpfocuswithin .appportrait_UninstalledIcon_8YrRm,
+.BasicUI .appportrait_InCollection_3ANru.gpfocuswithin .appportrait_UninstalledIcon_8YrRm,
+.BasicUI .appportrait_InRecentGames_biTV-:hover .appportrait_UninstalledIcon_8YrRm,
+.BasicUI .appportrait_InCollection_3ANru:hover .appportrait_UninstalledIcon_8YrRm {
+  opacity: 0;
 }

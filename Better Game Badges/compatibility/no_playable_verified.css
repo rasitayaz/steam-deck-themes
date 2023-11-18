@@ -1,5 +1,6 @@
 .BasicUI .shared_svg_library_SteamDeckCompatInfo_2LcFI {
   background: none;
+  padding: 0;
 }
 
 .shared_svg_library_SteamDeckCompatInfo_2LcFI>svg.shared_svg_library_SteamDeckCompatVerified_3mvZq,
@@ -9,7 +10,7 @@
 
 .shared_svg_library_SteamDeckCompatInfo_2LcFI>svg.shared_svg_library_SteamDeckCompatIcon_2hEWY,
 .shared_svg_library_SteamDeckCompatInfo_2LcFI>svg.shared_svg_library_SteamDeckCompatLogo_Tplfb {
-  background-color: #0e141b;
-  padding: 2px;
   border-radius: 20px;
+  background-color: #0e141b;
+  border: #0e141b 2px solid;
 }

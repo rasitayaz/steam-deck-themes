@@ -1,8 +1,0 @@
-.BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx {
-  opacity: 0;
-}
-
-.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus~.appportrait_LibraryItemBoxSubscript_1LJqx,
-.BasicUI .appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx {
-  opacity: 1;
-}

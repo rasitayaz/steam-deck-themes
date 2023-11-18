@@ -1,0 +1,4 @@
+.BasicUI .appportrait_LibraryItemBox_WYgDg .appportrait_LibraryItemIcons_3BPFq:only-child::before,
+.BasicUI .appportrait_LibraryItemBox_WYgDg .appportrait_UninstalledIcon_8YrRm {
+  display: none;
+}

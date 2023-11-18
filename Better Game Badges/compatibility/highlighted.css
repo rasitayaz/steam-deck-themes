@@ -1,5 +1,6 @@
 .BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus .appportrait_SteamDeckCompatIcon_3kDT9,
-.BasicUI .appportrait_LibraryItemBox_WYgDg:hover .appportrait_SteamDeckCompatIcon_3kDT9 {
+.BasicUI .appportrait_LibraryItemBox_WYgDg:hover .appportrait_SteamDeckCompatIcon_3kDT9,
+.BasicUI .gamecapsule_GameCapsule_fXdhj.Focusable:focus .gamecapsule_DeckCompat_Tl-6l {
   opacity: 1;
 }
 
