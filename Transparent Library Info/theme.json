@@ -4,6 +4,7 @@
   "author": "RasitAyaz",
   "manifest_version": 5,
   "target": "Library",
+  "description": "Hides backgrounds of capsule info boxes in library, looks great with the SteamOS 3.5 UI.",
   "inject": {
     "shared.css": ["SP"]
   },
