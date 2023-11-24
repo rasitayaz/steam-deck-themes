@@ -20,3 +20,31 @@
 .BasicUI .sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW:focus {
   border-radius: var(--round-radius-size);
 }
+
+.appdetailsfriendssection_FriendsSectionPlayingNow_fPAoc .appdetailsfriendssection_PlayingNowBody_17fER {
+  border-radius: var(--round-radius-size);
+}
+
+.CSSLoader_ThemeCard_Container,
+.CSSLoader_ThemeCard_ImageDarkener {
+  border-radius: var(--round-radius-size);
+}
+
+.gamepaddialog_GamepadDialogContent_3joNk .gamepaddialog_Field_S-_La {
+  border-radius: var(--round-radius-size);
+  background: transparent;
+}
+
+.chatentry_chatEntryControls_2gP0D,
+.chatentry_chatSubmitButton_1IEiK {
+  border-radius: var(--round-radius-size);
+}
+
+.allcollections_Collection_3IWn- .allcollections_CollectionImage_2ERAQ .allcollections_CapsuleImage_2zbkb .libraryassetimage_GreyBackground_2E7G8,
+.allcollections_Collection_3IWn- .allcollections_CollectionImage_2ERAQ .allcollections_CapsuleImage_2zbkb .libraryassetimage_GreyBackground_2E7G8 img {
+  border-radius: 0;
+}
+
+.homestorecarousel_StoreCarouselCtn_3zVCV {
+  margin-top: 0;
+}
