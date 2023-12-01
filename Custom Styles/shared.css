@@ -48,3 +48,56 @@
 .homestorecarousel_StoreCarouselCtn_3zVCV {
   margin-top: 0;
 }
+
+@keyframes gamepadhomerecentgames_InRight_1HKCB {
+  from {
+    transform: translateX(64px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes gamepadhomerecentgames_InLeft_22nzP {
+  from {
+    transform: translateX(-64px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+}
+
+@keyframes gamepadhomerecentgames_InRight2_Ji84a {
+  from {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(-64px);
+    opacity: 0;
+  }
+}
+
+@keyframes gamepadhomerecentgames_InLeft2_1-Jey {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(64px);
+    opacity: 0;
+  }
+}
+
+.BasicUI .sharedappdetailsheader_TopCapsule_2meE3.sharedappdetailsheader_FallbackArt_kgNCR {
+  height: var(--header-height);
+}
