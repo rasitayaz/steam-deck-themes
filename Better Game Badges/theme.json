@@ -4,7 +4,7 @@
   "author": "RasitAyaz",
   "manifest_version": 5,
   "target": "System-Wide",
-  "description": "Makes some improvements on game capsule badges and provides some options to customize them. Most notably, badges on the highlighted game will disappear after a delay by default. Replaces 'in library' labels with circular badges similar to compatibility badges. Removes unnecessary info box for the capsules in 'Non-Steam' tab (Doesn't apply to collections or custom TabMaster tabs). Hides info box and compatibility badge for soundtracks.",
+  "description": "Makes some improvements on game capsule badges and provides some options to customize them. Most notably, badges on the highlighted game will disappear after a delay by default. Replaces 'in library' labels with circular badges similar to compatibility badges. Removes unnecessary info box for the capsules in 'Non-Steam' tab (Doesn't apply to collections or custom TabMaster tabs). Hides info box and compatibility badge for soundtracks. Install status badge options are made for Tormak's 'Show Install Status' theme.",
   "inject": {
     "shared.css": ["SP"]
   },
@@ -58,13 +58,13 @@
       }
     },
     "Install status badges": {
-      "default": "Default",
+      "default": "Visible on focus",
       "type": "dropdown",
       "values": {
         "Hidden": {
           "install_status/hidden.css": ["SP"]
         },
-        "Default": {},
+        "Visible on focus": {},
         "Always visible": {
           "install_status/visible.css": ["SP"]
         }

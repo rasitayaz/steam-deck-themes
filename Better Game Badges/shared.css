@@ -37,9 +37,8 @@
 
 .BasicUI .appportrait_LibraryBottomItems_tvCvy>div.appportrait_LibraryItemIcons_3BPFq:only-child:before,
 .BasicUI .appportrait_Portrait_1Pf6J .appportrait_UninstalledIcon_8YrRm {
-  top: unset;
-  left: 4px;
-  bottom: 4px;
+  left: unset;
+  bottom: unset;
 }
 
 .BasicUI .appportrait_Draggable_1pwP4>.appportrait_LibraryItemBox_WYgDg.Focusable:focus .appportrait_LibraryItemIcons_3BPFq:only-child::before,
@@ -62,5 +61,9 @@
 .BasicUI .appportrait_InCollection_3ANru.gpfocuswithin .appportrait_UninstalledIcon_8YrRm,
 .BasicUI .appportrait_InRecentGames_biTV-:hover .appportrait_UninstalledIcon_8YrRm,
 .BasicUI .appportrait_InCollection_3ANru:hover .appportrait_UninstalledIcon_8YrRm {
+  opacity: 0;
+}
+
+.BasicUI .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg.appportrait_ShowAsHovered_2YsY_ .appportrait_SteamDeckCompatIcon_3kDT9 {
   opacity: 0;
 }
