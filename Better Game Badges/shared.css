@@ -35,7 +35,11 @@
   background-color: #0e141b;
 }
 
-.BasicUI .appportrait_LibraryBottomItems_tvCvy>div.appportrait_LibraryItemIcons_3BPFq:only-child:before,
+.BasicUI .appportrait_LibraryBottomItems_tvCvy>div.appportrait_LibraryItemIcons_3BPFq:only-child:before {
+  left: 4px;
+  bottom: 4px;
+}
+
 .BasicUI .appportrait_Portrait_1Pf6J .appportrait_UninstalledIcon_8YrRm {
   left: unset;
   bottom: unset;
