@@ -1,8 +1,3 @@
-.quickaccessmenu_Tab_1S76C {
-    height: var(--qam-tab-height);
-}
-
-.quickaccessmenu_Tabs_3Ag1w.quickaccessmenu_TabsWithFooter_3hbAG {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+.BasicUI ._1S76C3gQf4oOTbLdTMVH0m {
+    max-height: var(--qam-tab-height) !important;
 }
