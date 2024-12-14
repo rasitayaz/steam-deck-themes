@@ -102,7 +102,7 @@
 .BasicUI #sgdb-wrap #images-container .asset-box-wrap .image-wrap>.thumb,
 .BasicUI .sgdb-modal-details .asset-box-wrap .image-wrap>.thumb {
   background: none !important;
-  background-color: #32373D !important;
+  background-color: #3F4F5E !important;
   overflow: hidden;
   border-radius: var(--round-radius-size);
 }
