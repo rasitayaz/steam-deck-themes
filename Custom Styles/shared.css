@@ -83,15 +83,15 @@
   filter: none;
 }
 .BasicUI .gamepadhomerecentgames_RecentGamesInnerContainer_282X0 .basicgamecarousel_BasicGameCarousel_3MdH5 {
-  bottom: 20px;
+  height: 340px !important;
 }
 
-/* no home capsule shadow */
-.BasicUI .WYgDg9NyCcMIVuMyZ_NBC.Focusable:focus {
-  box-shadow: none;
+/* no capsule shadow */
+.BasicUI .WYgDg9NyCcMIVuMyZ_NBC {
+  box-shadow: none !important;
 }
 
-/* fix play next from library padding */
+/* fix "play next from library" padding */
 .BasicUI ._1UfZyOg0Kk7YyzjaCi2pNz ._3MdH5Czolhh5rC_nofUlcQ {
   padding-top: 16px;
 }
