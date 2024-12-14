@@ -78,10 +78,12 @@
   border-radius: 5px;
 }
 
-/* for switch like home */
+/* switch like home */
 .BasicUI ._3Mp8R2wnoCl6ko0HAX8IHE {
   filter: none;
 }
+
+/* switch like home */
 .BasicUI .gamepadhomerecentgames_RecentGamesInnerContainer_282X0 .basicgamecarousel_BasicGameCarousel_3MdH5 {
   height: 340px !important;
 }
@@ -94,4 +96,24 @@
 /* fix "play next from library" padding */
 .BasicUI ._1UfZyOg0Kk7YyzjaCi2pNz ._3MdH5Czolhh5rC_nofUlcQ {
   padding-top: 16px;
+}
+
+/* steamgriddb */
+.BasicUI #sgdb-wrap #images-container .asset-box-wrap .image-wrap>.thumb,
+.BasicUI .sgdb-modal-details .asset-box-wrap .image-wrap>.thumb {
+  background: none !important;
+  background-color: #32373D !important;
+  overflow: hidden;
+  border-radius: var(--round-radius-size);
+}
+
+/* steamgriddb */
+.BasicUI .sgdb-modal-details .asset-box-wrap .image-wrap,
+.BasicUI #sgdb-wrap #images-container .asset-box-wrap .image-wrap {
+  background: none;
+}
+
+/* steamgriddb */
+.BasicUI #sgdb-wrap #images-container .asset-box-wrap .chips {
+  margin-top: var(--round-radius-size);
 }
